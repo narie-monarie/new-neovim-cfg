@@ -6,11 +6,12 @@
 git pull https://github.com/narie-monarie/new-neovim-cfg.git
 ```
 - cd into neovim config, mostly in .config/nvim
-- install packer 
+- install Packer.nvim (For Linux users)
 
 ```bash
-https://github.com/wbthomason/packer.nvim
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
-- do a :PackerInstall
+- Do a :PackerInstall
 - Done
