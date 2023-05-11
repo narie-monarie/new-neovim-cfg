@@ -1,11 +1,10 @@
-# new-neovim-cfg
-- New NeoVim config
-- to use it :
+# New Neovim Config
+- To use it,
 
 ```bash
 git pull https://github.com/narie-monarie/new-neovim-cfg.git
 ```
-- cd into neovim config, mostly in .config/nvim
+- Cd into neovim config, mostly in .config/nvim
 - install Packer.nvim (For Linux users)
 
 ```bash
