@@ -27,3 +27,4 @@ vim.opt.incsearch = true
 --vim.keymap.set("n", "<F6>", vim.cmd.FloatermPrev)
 --vim.keymap.set("n", "<Leader>x", vim.cmd.FloatermToggle)
 vim.keymap.set("n", "<F6>", vim.cmd.Files)
+vim.keymap.set("n", "<F8>", vim.cmd.Gitsigns)
