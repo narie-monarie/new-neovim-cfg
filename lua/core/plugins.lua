@@ -20,7 +20,12 @@ return require('packer').startup(function(use)
     end }
 
     use('tpope/vim-fugitive')
-
+    use {
+        'numToStr/Comment.nvim',
+        config = function()
+            require('Comment').setup()
+        end
+    }
     use('windwp/nvim-autopairs')
     use('onsails/lspkind.nvim')
     use('nvim-treesitter/playground')
