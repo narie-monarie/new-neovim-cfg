@@ -12,7 +12,7 @@ vim.opt.fillchars = { eob = ' ' }
 
 -- GruvBox Theme
 vim.o.background = "dark" -- or "light" for light mode
-vim.cmd([[colorscheme tokyonight-storm]])
+vim.cmd([[colorscheme tokyonight-moon]])
 
 -- NvimTree require
 require("nvim-tree").setup({
